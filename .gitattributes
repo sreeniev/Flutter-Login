@@ -1,5 +1,6 @@
-# Force Dart language detection
+# Force Dart language detection for Dart files
 *.dart linguist-language=Dart
-# Ignore any C++ files if irrelevant
-*.cpp linguist-vendored
-*.h linguist-vendored
+
+# Mark CMake-related files as "vendored"
+*.cmake linguist-vendored
+CMakeLists.txt linguist-vendored
