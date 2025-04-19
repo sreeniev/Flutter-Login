@@ -1,6 +1,7 @@
 # Force Dart language detection for Dart files
 *.dart linguist-language=Dart
 
-# Mark CMake-related files as "vendored"
+# Mark CMake-related files as "vendored" (i.e., not part of the primary language)
 *.cmake linguist-vendored
 CMakeLists.txt linguist-vendored
+
