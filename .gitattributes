@@ -1,1 +1,5 @@
+# Force Dart language detection
 *.dart linguist-language=Dart
+# Ignore any C++ files if irrelevant
+*.cpp linguist-vendored
+*.h linguist-vendored
